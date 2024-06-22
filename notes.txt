@@ -1,0 +1,11 @@
+1. backdrop-filter: blur(20px);
+
+The backdrop-filter property is used to apply a graphical effect to the area behind an element.
+
+Tip: To see the effect, the element or its background must be at least partially transparent.
+
+            div.transbox {
+            background-color: rgba(255, 255, 255, 0.4);
+            -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+            }
